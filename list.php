@@ -9,7 +9,6 @@ $students = array(
 ); // values affected
 $sumAge = 0;
 
-
 foreach ($students as $nameKey => $ageValue){
     echo "$nameKey : $ageValue" . PHP_EOL;
 
