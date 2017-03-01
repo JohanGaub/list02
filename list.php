@@ -12,6 +12,7 @@ $sumAge = 0;
 foreach ($students as $nameKey => $ageValue){
     echo "$nameKey : $ageValue" . PHP_EOL;
 
+    
     $sumAge += $ageValue;
 };
 echo "La moyenne d'age est de" . " " . $sumAge / count($students) . " ans" . PHP_EOL;
